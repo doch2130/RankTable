@@ -1,7 +1,3 @@
-* {
-  font-family:Helvetica, Arial, sans-serif;
-}
-
 @keyframes rankChange {
   0% {
     transform: perspective(100vmin) rotateX(0deg);
@@ -9,12 +5,19 @@
   50% {
     transform: perspective(100vmin) rotateX(90deg);
   }
+  75% {
+    transform: perspective(100vmin) rotateX(90deg);
+  }
   100% {
     transform: perspective(100vmin) rotateX(0deg);
   }
 }
 
-.rank-element {
-  /* transform: perspective(100vmin) rotateX(160deg); */
-  animation: rankChange 2s 1;
+.myChange {
+  transform: perspective(100vmin) rotateX(0deg);
+  animation: rankChange 1s 1;
+}
+
+.change {
+  transition:all 1s ease;  
 }
