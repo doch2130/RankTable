@@ -19,5 +19,17 @@
 }
 
 .change {
-  transition:all 1s ease;  
+  transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+}
+
+
+.element {
+  transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in; /* Firefox 4 */
+  -webkit-transition: all 1s ease-in; /* Safari 和 Chrome */
+  -o-transition: all 1s ease-in; /* Opera */
+
 }

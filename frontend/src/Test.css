@@ -1,0 +1,40 @@
+.element {
+  position: absolute;
+  height: 20px;
+  background: green;
+  text-align: right;
+  color: white;
+  line-height: 20px;
+
+  /* transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in; 
+  -webkit-transition: all 1s ease-in; 
+  -o-transition: all 1s ease-in;  */
+
+
+  transition: top 1s ease-in;
+  -moz-transition: top 1s ease-in; 
+  -webkit-transition: top 1s ease-in;
+  -o-transition: top 1s ease-in;
+
+}
+
+.posi-0 {
+  top: 0px;
+}
+
+.posi-1 {
+top: 60px;
+}
+
+.posi-2 {
+top: 120px;
+}
+
+.posi-3 {
+top: 180px;
+}
+
+.posi-4 {
+top: 240px;
+}

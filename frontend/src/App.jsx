@@ -2,6 +2,8 @@ import React from 'react'
 import RankTable from './component/RankTable';
 import './App.css';
 
+const myName = 'Strawberry';
+
 function App() {
   return (
     <div className='container-wrap w-full h-full bg-[#232323] m-0 p-0'>
@@ -20,8 +22,8 @@ function App() {
               <th className='w-[20%] max-w-[150px]'>Diff</th>
             </tr>
           </thead>
-          <tbody className='[&_td]:py-[15px] [&_td]:text-[16px] [&_td]:border-b-[5px] [&_td]:border-[#232323]'>
-            <RankTable />
+          <tbody className='relative [&_td]:py-[15px] [&_td]:text-[16px] [&_td]:border-b-[5px] [&_td]:border-[#232323]'>
+            <RankTable myName={myName} />
           </tbody>
         </table>
       </section>
