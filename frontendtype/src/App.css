@@ -1,0 +1,35 @@
+@keyframes rankChange {
+  0% {
+    transform: perspective(100vmin) rotateX(0deg);
+  }
+  50% {
+    transform: perspective(100vmin) rotateX(90deg);
+  }
+  75% {
+    transform: perspective(100vmin) rotateX(90deg);
+  }
+  100% {
+    transform: perspective(100vmin) rotateX(0deg);
+  }
+}
+
+.myChange {
+  transform: perspective(100vmin) rotateX(0deg);
+  animation: rankChange 1s 1;
+}
+
+.change {
+  transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+}
+
+
+.element {
+  transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in; /* Firefox 4 */
+  -webkit-transition: all 1s ease-in; /* Safari 和 Chrome */
+  -o-transition: all 1s ease-in; /* Opera */
+
+}
